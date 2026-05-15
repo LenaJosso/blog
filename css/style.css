@@ -108,3 +108,57 @@ main {
     font-size: 1.2rem;
     color: #333;
 }
+
+/* --- Styles spécifiques pour les articles complets --- */
+
+.article-full-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1a4331;
+}
+
+.article-text-content {
+    line-height: 1.8; /* Plus d'espace entre les lignes pour le confort de lecture */
+    font-size: 1.2rem;
+    color: #333;
+    max-width: 800px; /* On réduit la largeur du texte pour que ce soit plus beau */
+    margin: 0 auto;
+}
+
+/* Lettrine (la première lettre plus grosse) */
+.dropcap::first-letter {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    float: left;
+    margin-right: 10px;
+    line-height: 1;
+    color: #1a4331;
+}
+
+/* Citation stylisée */
+.stylized-quote {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    border-left: 5px solid #1a4331;
+    padding-left: 30px;
+    margin: 40px 0;
+    color: #555;
+}
+
+/* Bouton retour */
+.back-link {
+    text-decoration: none;
+    color: #1a4331;
+    font-weight: bold;
+    border: 1px solid #1a4331;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.back-link:hover {
+    background-color: #1a4331;
+    color: white;
+}
